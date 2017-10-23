@@ -16,9 +16,10 @@ btn.addEventListener('click', function() {
 })
 
 const heading = document.querySelector('#heading');
+const img = document.querySelector('img');
 
 const textShine = () => {
-	let loopText = "Welcome To Random Dog Pictures"
+	let loopText = "Dogs For Matt"
 	for(i=0;i<loopText.length;i++) {
 		let iDiv = document.createElement('button');
 	    iDiv.classList.add("title");
@@ -31,4 +32,11 @@ const textShine = () => {
 	}
 }
 
+const border = () => {
+	setInterval( () => {
+	    	img.style.borderColor = '#'+Math.random().toString(16).substr(-6);
+	    }, 300);
+}
+
+border();
 textShine();
