@@ -18,7 +18,7 @@ btn.addEventListener('click', function() {
 const heading = document.querySelector('#heading');
 
 const textShine = () => {
-	let loopText = "Welcome To Random Dog Pictures"
+	let loopText = "Dogs For Matt"
 	for(i=0;i<loopText.length;i++) {
 		let iDiv = document.createElement('button');
 	    iDiv.classList.add("title");
