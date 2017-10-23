@@ -54,6 +54,17 @@ img {
   text-decoration: none;
 }
 
+.btn:active {
+  cursor: pointer;
+  background: #fff200;
+  background: #f76868;
+  background-image: -webkit-linear-gradient(top, #f76868, #c2ff9e);
+  background-image: -moz-linear-gradient(top, #f76868, #c2ff9e);
+  background-image: -ms-linear-gradient(top, #f76868, #c2ff9e);
+  background-image: -o-linear-gradient(top, #f76868, #c2ff9e);
+  background-image: linear-gradient(to bottom, #f76868, #c2ff9e);
+}
+
 button:focus {
   outline: none;
 }
